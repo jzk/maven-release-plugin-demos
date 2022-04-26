@@ -9,8 +9,8 @@
     <description>Demonstrations of customising the Maven Release Plugin</description>
 
     <scm>
-        <connection>scm:git:https://github.com/mthmulders/maven-release-plugin-demos.git</connection>
-        <developerConnection>scm:git:git@github.com:mthmulders/maven-release-plugin-demos.git</developerConnection>
+        <connection>scm:git:git@github.com:jzk/maven-release-plugin-demos.git</connection>
+        <developerConnection>scm:git:git@github.com:jzk/maven-release-plugin-demos.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
