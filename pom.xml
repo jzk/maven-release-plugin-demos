@@ -72,11 +72,23 @@
         </pluginRepository>
     </pluginRepositories>
 
+
+
     <distributionManagement>
     
         <repository>
             <id>nexus-releases</id>
             <url>http://localhost:8081/repository/maven-releases/</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
         </repository>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <url>http://localhost:8081/repository/maven-snapshots/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </snapshotRepository>
     </distributionManagement>
 </project>
